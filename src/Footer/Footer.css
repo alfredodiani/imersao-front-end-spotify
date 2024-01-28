@@ -1,0 +1,40 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, purple , darkblue);
+    padding: 1em 2em;
+}
+
+.rodape__mensagem {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rodape__mensagem .mensagem__titulo {
+    text-transform: uppercase;
+}
+
+.rodape__mensagem p {
+    margin-top: 0.5em;
+}
+
+.rodape__inscreva-btn {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0;
+    width: 150px;
+}
